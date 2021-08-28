@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #ebf2ff;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+  z-index: 9999;
+}
+.navbar__brand{
+  width: 100px;
+}
+.brand__logo {
+    width: 100%;
+
+}
+.navbar__nav__items{
+  display: flex;
+}
+.button__primary {
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    margin: 10px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px red;
+    border-radius: 4px;
+    display: block;
+}
+.container{
+  padding: 0px 20px ;
+}
+.hero__container{
+  margin-top: 1rem;
+}
+.hero__image__container{
+  position: relative;
+  width: 100%;
+}
+.hero__image{
+  position: absolute;
+  left: auto;
+  right: auto;
+  width: 100%;
+  z-index: 2;
+  border-radius: 10px;
+}
+.hero__image__shape{
+  position: absolute;
+}
+.hero__text {
+    font-size: 2rem;
+    line-height: 2.25rem;
+    color: blue;
+    font-weight: 900;
+}
+.video__footage__container{
+  margin-top: 3rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.video__footage{
+  position: relative;
+}
+.video__footage::before{
+  background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+  );
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  transform: translate(-1rem,-1rem);
+  height: 100%;
+  width: 100%;
+}
+.button__primary:hover {
+    background-position: right center;
+}
+.video__footage__text{
+  margin-top: 2rem;
+  color: red;
+  font-weight: 300;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.food__list__container{
+  position: relative;
+  margin: 5rem 0;
+}
+.food__menu__card__list{
+  width: 100%;
+  margin-top: 1rem;
+}
+.food__menu__card__image{
+  border-radius: 6px 6px 0px 0px;
+  width: 100%;
+}
+.food__menu__card__details {
+    padding: 1rem;
+    text-align: left;
+    color: black;
+}
+.food__menu__card__title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: blue;
+    font-weight: 900;
+}
+.food__menu__card{
+  margin-top: 1rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
