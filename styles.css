@@ -10,6 +10,7 @@ body {
 .navbar{
   position: sticky;
   top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,7 +47,7 @@ body {
     display: block;
 }
 .container{
-  padding: 0px 20px ;
+  padding: 0px 16px;
 }
 .hero__container{
   margin-top: 1rem;
@@ -74,7 +75,7 @@ body {
 }
 .video__footage__container{
   margin-top: 3rem;
-  margin-left: 1rem;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -136,4 +137,24 @@ body {
 .food__menu__card{
   margin-top: 1rem;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+.food__list__view__more__button{
+  background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #dd2476 51%,
+      #ff512f 100%
+  );
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+  font-weight: 300;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px red;
+  border-radius: 6px;
+  display: block;
 }
