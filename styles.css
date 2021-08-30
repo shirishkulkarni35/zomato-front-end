@@ -48,6 +48,7 @@ body {
 }
 .container{
   padding: 0px 16px;
+
 }
 .hero__container{
   margin-top: 1rem;
@@ -97,11 +98,11 @@ body {
   z-index: -1;
   top: 0px;
   left: 0px;
-  transform: translate(-1rem,-1rem);
+  transform: translate(1rem,1rem);
   height: 100%;
   width: 100%;
 }
-.button__primary:hover {
+.button__primary,food__list__view__more__button:hover {
     background-position: right center;
 }
 .video__footage__text{
@@ -157,4 +158,56 @@ body {
   box-shadow: 0 0 20px red;
   border-radius: 6px;
   display: block;
+}
+.restaruant__list__container{
+  margin: 1rem 0;
+}
+.text-x1{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #1d3557;
+  font-weight: 900;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 .
+}
+.restaruant__list__images__container{
+  margin-top: 3rem;
+}
+.restaurant__list__row1{
+  display: flex;
+  align-items: baseline;
+}
+.restaurant__list__row2{
+  display: flex;
+  margin-top: 10px;
+
+  flex-direction: row-reverse;
+
+}
+.restaurant1,.restaurant3{
+  border-radius: 5px;
+  margin: 0 5px;
+  width: 150px;
+  height: 80px;
+}
+.restaurant2,.restaurant4{
+  border-radius: 5px;
+  margin: 0 5px;
+  width: 200px;
+  height: 100px;
+}
+.email__update__container{
+  margin-top: 3rem;
+  padding: 15px;
+  width: 100%;
+}
+.email__update__inputfield__container{
+  display: flex;
+  align-items: center;
+}
+.email__update__input{
+  border: 1px solid #ee89a0;
+background-color: #fcedf0;
+color: #1d3557;
+font-weight: 700;
+padding: 0.5rem;
+border-radius: 4px;
 }
