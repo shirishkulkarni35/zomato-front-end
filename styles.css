@@ -256,6 +256,10 @@ border-radius: 4px;
     background-color: white;
     border-radius: 6px;
 }
+.card__2{
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
 .food__list__container__diagonal {
     background-image: linear-gradient(
     to right,
